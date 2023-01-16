@@ -20,7 +20,7 @@ contract Etern is ERC20, ERC20Burnable, Ownable {
   uint256 constant MAXIMUMSUPPLY=100000000*10**18;
 
   constructor() ERC20("Etern", "ETRN") { 
-      _mint(msg.sender, 10000000 * 10 ** 18);
+      _mint(msg.sender, 1 * 10 ** 18);
 
   }
 
