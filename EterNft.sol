@@ -13,14 +13,14 @@ contract EterNft is ERC721Enumerable, Ownable {
     using Strings for uint256;
     string public baseURI;
     string public baseExtension = ".json";
-    uint256 public maxSupply = 60000;
+    uint256 public maxSupply = 6000;
     uint256 public maxMintAmount = 50;
     bool public paused = false;
 
     constructor() ERC721("Eternumland NFT", "ETRNLD") {}
 
     function _baseURI() internal view virtual override returns (string memory) {
-    return "ipfs://QmTvwwgmDXYob5k3Si539dBGZeSaELKfy1h89MD5E5BW8K/";
+    return "ipfs://QmPk1boUFfzhAoEzTfrp7iLs2Zk1Lo53aSMEeGnpDSu3gB/";
 
     }
     
